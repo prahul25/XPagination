@@ -69,7 +69,7 @@ function App() {
 
       <div className="pagination">
         <button onClick={handlePrevClick} disabled={preDisabled}>
-          Prev
+        Previous
         </button>
         <span>{currentPage}</span>
         <button onClick={handleNextClick} disabled={nextDisabled}>
