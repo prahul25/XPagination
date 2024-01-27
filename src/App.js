@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const [data, setData] = useState([]);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(2);
   const [totalPages, setTotalPages] = useState(0);
 
   // Fetch data from API
@@ -48,7 +48,7 @@ function App() {
       <h1>Employee Data Table</h1>
       <table>
         <thead>
-          <tr  style={{display:"flex" , width:"100%", justifyContent:"space-between"}}>
+          <tr>
             <th>ID</th>
             <th>Name</th>
             <th>Email</th>
